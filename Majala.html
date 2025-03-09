@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>كلية سان مارك</title>
+        <link rel="stylesheet" href="New.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      </head>
+<body>
+    <header>
+        <img src="images (11).jpg" class="top-right-logo">
+        <div class="container">
+            <h1>مجلة كلية سان مارك</h1>
+            <p>ِArab | Francais | Anglais </p>
+            <nav>
+                <ul>
+                    <li><a href="#projects">المواضيع</a></li>
+                    <li><a href="#MM">اخر الأخبارعن المدرسة</a></li>
+                    <li><a href="#contact"> للتواصل معنا</a></li>
+                    <li><a href="About the manager.html">عن فريق العمل</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="projects" class="section">
+            <div class="container">
+              <h2>المواضيع</h2>
+              <div class="project-grid">
+                <div class="project-card">
+                  <h3>رحلة القسم الأعدادي الي الفيوم</h3>
+                  <a href="https://online.anyflip.com/cnbcn/qrud/mobile/index.html" class="btn">اضغط هنا</a>
+                </div>
+                <div class="project-card">
+                  <h3> رحلة القسم الأعدادي في إجازة نصف العام إلى دهب</h3>
+                  <a href="https://online.anyflip.com/cnbcn/wcfs/index.html" class="btn">اضغط هنا</a>
+                </div>
+              </div>
+            </div>
+        <br><br>
+        <section id="MM" class="section">
+            <div class="container">
+                <h2>اخر الأخبارعن المدرسة</h2>
+                <a href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSaintMarcAlexandrie%2Fposts%2Fpfbid025WCtYQmhMV1fCS4pPpvPx8mtEUDuufvE4yjcCeS4yuZAWMwnGHmiqoDtBRfGtg6Wl&show"><img src="Screenshot 2025-03-04 171052.png" alt="Image Description"></a>
+                <a href="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/ifealexandrie/posts/pfbid036CPowmcbZXhY8CBRBPQJpVjqJDsy28zU28aVnTUWehV1PdRwwLbc6TAwo3wiD6Mhl&show"><img src="Screenshot 2025-03-04 170337.png" alt="Image Description"></a>
+
+    </main>
+
+    <script>
+        // JavaScript code for the upload button
+        document.getElementById('add-files-btn').addEventListener('click', function() {
+            document.getElementById('file-input').click();
+        });
+
+        document.getElementById('file-input').addEventListener('change', function() {
+            const files = this.files;
+            if (files.length > 0) {
+                console.log('Selected files:', files);
+            }
+        });
+
+        // JavaScript code for the About Us button
+        document.getElementById('about-us-btn').addEventListener('click', function() {
+            alert('من نحن'); // يمكنك تغيير هذا الجزء
+        });
+    </script>
+   <section id="contact" class="section">
+    <div class="container">
+        <h2 style="text-align: center;">للتواصل معنا</h2>
+        <p style="text-align: center;">تواصل معنا على الفيسبوك</p>
+        <div class="social-links" style="text-align: center;">
+            <a href="https://www.facebook.com/saintmarc.prep.7" target="_blank">
+                <i class="fab fa-facebook"></i> Facebook
+            </a>
+        </div>
+    </div>
+   </section>
+      <footer>
+        <div class="container">
+          <p>&copy; 2025 Marc-Tech. All rights reserved.</p>
+        </div>
+      </footer>
+</body>
+</html>

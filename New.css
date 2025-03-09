@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url("1200px-Collège_Saint-Marc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: top;
+    height: 100vh;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+
+.logo {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#documents {
+    margin-bottom: 20px;
+}
+
+/* Styles for all buttons */
+#add-document-btn, #airplanes-btn, #add-files-btn { 
+    background-color: rgb(40, 167, 69);
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for all buttons */
+#add-document-btn:hover, #airplanes-btn:hover, #add-files-btn:hover { 
+    background-color: #218838;
+}
+
+/* Specific styles for the upload button */
+#add-files-btn {
+    background-color: #000000; /* Blue background color */
+}
+
+#add-files-btn:hover {
+    background-color: #424344; /* Darker blue on hover */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Add this CSS for the image */
+.last-photo {
+    float: left; /* Float the image to the left */
+    margin-right: 10px; /* Add some space to the right of the image */
+}
+/* ... باقي أنماط CSS ... */
+
+.header-buttons {
+    display: flex;
+    justify-content: center; /* توسيط الأزرار أفقيًا */
+    margin-top: 10px; /* مساحة بين العنوان والأزرار */
+}
+
+.header-buttons button {
+    background-color: #000000; /* لون خلفية الأزرار */
+    color: #fff; /* لون النص */
+    border: none;
+    padding: 20px 40px;
+    cursor: pointer;
+    margin:  10px; /* مساحة بين الأزرار */
+    font-size: 18px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.header-buttons button:hover {
+    background-color: #333; /* لون الخلفية عند التمرير */
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+/* Projects Section */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(40, 167, 69);
+    text-align: center;
+  }
+  
+.project-card h3 {
+    margin-top: 0;
+  }
+  
+  .project-card .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Contact Section */
+.social-links {
+    text-align: center;
+  }
+  
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #0000006b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+.social-links a i {
+    margin-right: 8px;
+  }
+.top-right-logo {
+    position: absolute; 
+    top: 2px;
+    right: 2px; 
+    width: 140px; 
+    height: auto; 
+    z-index: 100; 
+}
